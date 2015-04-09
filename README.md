@@ -16,5 +16,5 @@ Sometimes, you just mess things up and you need to start over. As long as you ha
 
 I never remember how to do this. I should just make an alias, but where is the fun in that?
 
-`git fetch`
-`git checkout --track origin/branch_name`
+* `git fetch`
+* `git checkout --track origin/branch_name`
