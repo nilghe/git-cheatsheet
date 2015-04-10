@@ -18,3 +18,14 @@ I never remember how to do this. I should just make an alias, but where is the f
 
 * `git fetch`
 * `git checkout --track origin/branch_name`
+
+# Simple Alias for bash or zsh
+
+Add these so your `~/.zsh` or `~/.bash_profile`
+
+```
+alias gits='git status'
+alias gita='git add . --all'
+alias gitl='git log'
+alias gitc='git commit -am'
+```
