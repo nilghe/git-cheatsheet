@@ -19,6 +19,14 @@ I never remember how to do this. I should just make an alias, but where is the f
 * `git fetch`
 * `git checkout --track origin/branch_name`
 
+## view git log by author
+
+When you want to see all the commits made by a specific person in your branch. Taken from this [Stackoverflow answer](http://stackoverflow.com/a/4262780/1052068). 
+
+`git log --author="Chris"`
+`git log --author=Chris`
+`git log --author=Last`
+
 # Simple Alias for bash or zsh
 
 Add these so your `~/.zsh` or `~/.bash_profile`
@@ -29,3 +37,5 @@ alias gita='git add . --all'
 alias gitl='git log'
 alias gitc='git commit -am'
 ```
+
+
