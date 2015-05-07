@@ -27,6 +27,14 @@ When you want to see all the commits made by a specific person in your branch. T
 `git log --author=Chris`
 `git log --author=Last`
 
+# Delete local and remote branch
+
+You should be keeping your git repo clean, so you want to delete branches locally AND remote. Becareful with this.
+
+`git push origin --delete <branch name> # delete remote branch`
+`git branch -d <branch name> # delete local branch only`
+
+
 # Simple Alias for bash or zsh
 
 Add these so your `~/.zsh` or `~/.bash_profile`
